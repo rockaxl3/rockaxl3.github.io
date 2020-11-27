@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ИСТбд-22 Крахмалюк Денис</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="common/favicon.png" type="image/png">
+</head>
+<body>
+    <header>
+        <h1>
+            Каталог лабoраторных работ по предмету "Основы Интернет Вёрстки"<br>студента ИСТбд-22 Крахмалюк Дениса
+        </h1>
+    </header>
+    <main>
+        <ol>
+            <li><a href="../lab1/lab1.html" target="_blank">Лаба 1</a></li>
+            <li><a href="../lab2/lab2.html" target="_blank">Лаба 2</a></li>
+            <li><a href="../lab3/lab3.html" target="_blank">Лаба 3</a></li>
+            <li><a href="../lab4/lab4.html" target="_blank">Лаба 4</a></li>
+            <li><a href="../lab5/lab5.html" target="_blank">Лаба 5</a></li>
+        </ol>
+    </main>
+<script>
+    "use strict";
+    document.addEventListener("DOMContentLoaded", function()
+    {
+        var buttons = document.getElementsByTagName("li");
+        var i = 0;
+        var kill = setInterval(function()
+        {
+            buttons[i].style.opacity = 1;
+            buttons[i++].style.transform = "scale(1, 1)";
+            i == buttons.length ? clearInterval(kill) : void 0;
+        }, 200);
+    });
+</script>
+</body>
+</html>

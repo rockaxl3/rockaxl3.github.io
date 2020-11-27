@@ -1,0 +1,34 @@
+body
+{
+    box-sizing: border-box;
+    min-height: 100vh;
+    padding: 64px;
+    margin: 0;
+
+    font-family: courier new, monospace;
+    color: lightskyblue;
+    font-size: 32px;
+    font-weight: 700;
+    font-style: normal;
+
+    background-color: lightgrey;
+    background-image: linear-gradient(60deg, #232526df, #414345df), url("../common/bg.jpg");
+}
+
+article
+{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 32px;
+    border-radius: 12px;
+
+    background-color: grey;
+}
+article > h1
+{
+    margin: 0;
+}
+article > p
+{
+   
+}
