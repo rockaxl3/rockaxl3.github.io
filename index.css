@@ -11,7 +11,7 @@ body
     font-style: normal;
 
     background-color: lightgrey;
-    background: url("common/catjam.gif") left bottom no-repeat, linear-gradient(60deg, #232526df, #414345df), url("/common/bg.jpg");
+    background: url("common/catjam.gif") left bottom no-repeat, linear-gradient(60deg, #232526df, #414345df), url("common/bg.jpg");
 }
 *
 {
